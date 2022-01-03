@@ -10,7 +10,6 @@ export default function Dogs() {
     const fetchData = async () => {
       const data = await fetchDogs();
       setDogs(data);
-      console.log(data);
     };
     fetchData();
   }, []);
