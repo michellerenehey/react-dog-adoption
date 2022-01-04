@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom';
+import './DogList.css';
 
 export default function DogsList({ id, name, breed, image }) {
   return (
-    <Link to={`/dogs/${id}`}>
-      <h3>Meet {name}</h3>
-      <img src={image} />
-      <p>
-        {name} is a(n) {breed}
-      </p>
-    </Link>
+    <div className="dog-card">
+      <Link to={`/dogs/${id}`} className="dog-list">
+        <h3>Meet {name}</h3>
+        <img src={image} />
+        <p>
+          {name} is a(n) {breed}
+        </p>
+      </Link>
+    </div>
   );
 }

@@ -2,6 +2,7 @@ import { fetchDogs } from '../../services/dogs';
 import { useEffect, useState } from 'react';
 
 import DogList from '../../components/Dogs/DogList';
+import './Dogs.css';
 
 export default function Dogs() {
   const [dogs, setDogs] = useState([]);
@@ -14,7 +15,7 @@ export default function Dogs() {
     fetchData();
   }, []);
   return (
-    <div>
+    <div className="dogs-style">
       {dogs.map((dog) => (
         <DogList key={dog.id} {...dog} />
       ))}
