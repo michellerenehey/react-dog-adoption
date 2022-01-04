@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a dog's details 1`] = `
+<div>
+  <div>
+    <div
+      class="dog-detail"
+    >
+      <h3>
+        Meet 
+        Althea
+      </h3>
+      <img
+        src="https://placedog.net/500?id=10"
+      />
+      <p>
+        Althea
+         is a(n) 
+        German Short-haired Pointer
+      </p>
+      <p>
+        High energy pooch! Would do well in an active family with another dog to keep her company.
+      </p>
+    </div>
+  </div>
+</div>
+`;
