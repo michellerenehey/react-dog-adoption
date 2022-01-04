@@ -7,7 +7,7 @@ export default function DogsList({ id, name, breed, image }) {
       <Link to={`/dogs/${id}`} className="dog-list">
         <h3>Meet {name}</h3>
         <img src={image} />
-        <p>
+        <p className="dog-card-p">
           {name} is a(n) {breed}
         </p>
       </Link>
