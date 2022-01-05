@@ -4,7 +4,7 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <Link to={'/'} className="headerStyle">
+      <Link to="/" className="headerStyle">
         HOME
       </Link>
     </header>
