@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchDogById } from '../../services/dogs';
+import { fetchDogById, updateDog } from '../../services/dogs';
 
 import DogForm from '../../components/Dog/DogForm';
 
@@ -21,9 +21,24 @@ export default function DogEdit(props) {
     fetchData();
   }, [id]);
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    await updateDog(id, name, breed, image, bio);
+  };
+
   return (
     <div>
-      <DogForm name={name} breed={breed} image={image} bio={bio} />
+      <DogForm
+        name={name}
+        setName={setName}
+        breed={breed}
+        setBreed={setBreed}
+        image={image}
+        setImage={setImage}
+        bio={bio}
+        setBio={setBio}
+        handleSubmit={handleSubmit}
+      />
     </div>
   );
 }
