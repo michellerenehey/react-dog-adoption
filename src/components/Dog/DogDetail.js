@@ -11,7 +11,7 @@ export default function DogDetail({ id, name, image, breed, bio }) {
       </p>
       <p>{bio}</p>
       <button>
-        <Link to={`/dogs/${id}}/edit`}>Edit</Link>
+        <Link to={`/dogs/${id}/edit`}>Edit</Link>
       </button>
     </div>
   );
