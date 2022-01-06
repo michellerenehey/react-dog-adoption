@@ -43,13 +43,13 @@ export default function DogForm({
         />
         <label>Dog Bio:</label>
         <textarea
-          placeholder="enter breed"
+          placeholder="enter bio"
           value={bio}
           onChange={(e) => {
             setBio(e.target.value);
           }}
         />
-        <button onClick={handleSubmit}>Update Doggy</button>
+        <button onClick={handleSubmit}>Save</button>
       </form>
     </div>
   );

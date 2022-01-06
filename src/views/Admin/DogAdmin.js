@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { addDog } from '../../services/dogs';
+import { useHistory } from 'react-router-dom';
 import DogForm from '../../components/Dog/DogForm';
 
 export default function DogAdmin() {
@@ -8,9 +9,12 @@ export default function DogAdmin() {
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
 
+  const history = useHistory();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await addDog(name, breed, image, bio);
+    const data = await addDog(name, breed, image, bio);
+    history.push(`/dogs/${data[0].id}`);
   };
   return (
     <div>
