@@ -1,4 +1,4 @@
-import React from 'react';
+import './DogForm.css';
 
 export default function DogForm({
   name,
@@ -13,9 +13,10 @@ export default function DogForm({
 }) {
   return (
     <div>
-      <form>
-        <label>Dog Name:</label>
+      <form className="dog-form">
+        <label className="form-detail">Dog Name:</label>
         <input
+          className="form-detail"
           placeholder="enter name"
           type="text"
           value={name}
