@@ -7,6 +7,7 @@ export default function Header() {
       <Link to="/" className="headerStyle">
         HOME
       </Link>
+      <Link to="/admin">ADMIN</Link>
     </header>
   );
 }
