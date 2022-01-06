@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { fetchDogById, updateDog } from '../../services/dogs';
 import { useHistory } from 'react-router-dom';
 import DogForm from '../../components/Dog/DogForm';
+import './DogEdit.css';
 
 export default function DogEdit(props) {
   const id = props.match.params.id;
@@ -9,6 +10,7 @@ export default function DogEdit(props) {
   const [breed, setBreed] = useState('');
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
+  const [message, setMessage] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,13 +26,21 @@ export default function DogEdit(props) {
   const history = useHistory();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    await updateDog(id, name, breed, image, bio);
-    history.goBack();
+    try {
+      e.preventDefault();
+      await updateDog(id, name, breed, image, bio);
+      setMessage('Success! Redirecting...');
+      setTimeout(() => {
+        history.goBack();
+      }, 2500);
+    } catch {
+      setMessage('Oh no! Something went wrong!');
+    }
   };
 
   return (
     <div>
+      <p className="message">{message}</p>
       <DogForm
         name={name}
         setName={setName}

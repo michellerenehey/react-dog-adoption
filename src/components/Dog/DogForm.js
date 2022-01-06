@@ -23,6 +23,7 @@ export default function DogForm({
           onChange={(e) => {
             setName(e.target.value);
           }}
+          required
         />
         <label>Dog Breed:</label>
         <input

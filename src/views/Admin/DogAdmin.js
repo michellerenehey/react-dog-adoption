@@ -2,22 +2,32 @@ import { useState } from 'react';
 import { addDog } from '../../services/dogs';
 import { useHistory } from 'react-router-dom';
 import DogForm from '../../components/Dog/DogForm';
+import './DogAdmin.css';
 
 export default function DogAdmin() {
   const [name, setName] = useState('');
   const [breed, setBreed] = useState('');
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
+  const [message, setMessage] = useState('');
 
   const history = useHistory();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const data = await addDog(name, breed, image, bio);
-    history.push(`/dogs/${data[0].id}`);
+    try {
+      e.preventDefault();
+      const data = await addDog(name, breed, image, bio);
+      setMessage('Success! Redirecting...');
+      setTimeout(() => {
+        history.push(`/dogs/${data[0].id}`);
+      }, 2500);
+    } catch {
+      setMessage('Oops! Something went wrong!');
+    }
   };
   return (
     <div>
+      <p className="message">{message}</p>
       <DogForm
         name={name}
         setName={setName}
