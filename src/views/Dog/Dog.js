@@ -1,5 +1,6 @@
-import { fetchDogById } from '../../services/dogs';
+import { deleteDog, fetchDogById } from '../../services/dogs';
 import { useEffect, useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import DogDetail from '../../components/Dog/DogDetail';
 
@@ -17,5 +18,17 @@ export default function Dog(props) {
     fetchData();
   }, [id]);
 
-  return <div>{loading ? <p>...page is loading</p> : <DogDetail {...dog} />}</div>;
+  const history = useHistory();
+
+  const handleDelete = async (e) => {
+    e.preventDefault();
+    await deleteDog(id);
+    history.push('/');
+  };
+
+  return (
+    <div>
+      {loading ? <p>...page is loading</p> : <DogDetail {...dog} handleDelete={handleDelete} />}
+    </div>
+  );
 }

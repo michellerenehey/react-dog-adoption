@@ -25,7 +25,7 @@ export default function DogEdit(props) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const data = await updateDog(id, name, breed, image, bio);
+    await updateDog(id, name, breed, image, bio);
     history.goBack();
   };
 
