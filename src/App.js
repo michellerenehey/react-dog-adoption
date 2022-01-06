@@ -9,7 +9,7 @@ import DogAdmin from './views/Admin/DogAdmin';
 
 function App() {
   return (
-    <div>
+    <div className="app-style">
       <BrowserRouter>
         <Header />
         <Switch>
