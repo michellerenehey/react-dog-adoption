@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { fetchDogById, updateDog } from '../../services/dogs';
-
+import { useHistory } from 'react-router-dom';
 import DogForm from '../../components/Dog/DogForm';
 
 export default function DogEdit(props) {
@@ -21,9 +21,12 @@ export default function DogEdit(props) {
     fetchData();
   }, [id]);
 
+  const history = useHistory();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await updateDog(id, name, breed, image, bio);
+    const data = await updateDog(id, name, breed, image, bio);
+    history.goBack();
   };
 
   return (
