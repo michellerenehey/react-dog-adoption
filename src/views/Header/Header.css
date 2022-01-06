@@ -1,7 +1,7 @@
 header {
-  background: #3d405b;
+  background: black;
   width: 100vw;
-  height: 40px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,6 +10,6 @@ header {
 .headerStyle {
   text-decoration: none;
   font-weight: bold;
-  color: #81b29a;
+  color: pink;
   padding: 5px;
 }

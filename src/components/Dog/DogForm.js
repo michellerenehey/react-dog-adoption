@@ -12,7 +12,7 @@ export default function DogForm({
   handleSubmit,
 }) {
   return (
-    <div>
+    <div className="dog-form-div">
       <form className="dog-form">
         <label className="form-detail">Dog Name:</label>
         <input
@@ -44,6 +44,7 @@ export default function DogForm({
         />
         <label>Dog Bio:</label>
         <textarea
+          className="dog-bio"
           placeholder="enter bio"
           value={bio}
           onChange={(e) => {

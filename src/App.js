@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import background from './background.png';
 
 import Dogs from './views/Dogs/Dogs';
 import Dog from './views/Dog/Dog';
@@ -9,7 +10,7 @@ import DogAdmin from './views/Admin/DogAdmin';
 
 function App() {
   return (
-    <div className="app-style">
+    <div className="app-style" style={{ backgroundImage: `url(${background})` }}>
       <BrowserRouter>
         <Header />
         <Switch>
