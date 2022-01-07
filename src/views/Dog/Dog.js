@@ -8,6 +8,7 @@ export default function Dog(props) {
   const id = props.match.params.id;
   const [dog, setDog] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [message, setMessage] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,14 +22,22 @@ export default function Dog(props) {
   const history = useHistory();
 
   const handleDelete = async (e) => {
-    e.preventDefault();
-    await deleteDog(id);
-    history.push('/');
+    try {
+      e.preventDefault();
+      await deleteDog(id);
+      history.push('/');
+    } catch {
+      setMessage('Oh no! Something went wrong!');
+    }
   };
 
   return (
     <div>
-      {loading ? <p>...page is loading</p> : <DogDetail {...dog} handleDelete={handleDelete} />}
+      {loading ? (
+        <p>...page is loading</p>
+      ) : (
+        <DogDetail {...dog} handleDelete={handleDelete} message={message} />
+      )}
     </div>
   );
 }
