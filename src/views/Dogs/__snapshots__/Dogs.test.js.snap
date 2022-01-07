@@ -34,29 +34,6 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
-          href="/dogs/5"
-        >
-          <h3>
-            Meet 
-            Harvey
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=45"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Harvey
-             is a(n) 
-            Golden retriever 
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
           href="/dogs/4"
         >
           <h3>
@@ -72,6 +49,29 @@ exports[`should render list of dogs 1`] = `
             Kaya
              is a(n) 
             German shepherd mix
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
+          href="/dogs/18"
+        >
+          <h3>
+            Meet 
+            Not a Dog
+          </h3>
+          <img
+            src="https://placekitten.com/200/300"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Not a Dog
+             is a(n) 
+            Cat
           </p>
         </a>
       </div>

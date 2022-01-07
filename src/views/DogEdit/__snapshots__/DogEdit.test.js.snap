@@ -3,9 +3,6 @@
 exports[`should render the DogEdit component 1`] = `
 <div>
   <div>
-    <p
-      class="message"
-    />
     <div
       class="dog-form-div"
     >
@@ -49,7 +46,9 @@ exports[`should render the DogEdit component 1`] = `
         >
           What a cutie. Poppy is gentle and calm. She loves babies, dandelions, and long walks. Her ears flop when she runs, and she'll snuggle with you all day long. 
         </textarea>
-        <button>
+        <button
+          class=""
+        >
           Save
         </button>
       </form>
