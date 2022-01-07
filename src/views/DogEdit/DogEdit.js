@@ -11,6 +11,7 @@ export default function DogEdit(props) {
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
   const [message, setMessage] = useState('');
+  const [buttonClass, setButtonClass] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,6 +31,7 @@ export default function DogEdit(props) {
       e.preventDefault();
       await updateDog(id, name, breed, image, bio);
       setMessage('Success! Redirecting...');
+      setButtonClass('hidden');
       setTimeout(() => {
         history.goBack();
       }, 2500);
@@ -51,6 +53,7 @@ export default function DogEdit(props) {
         bio={bio}
         setBio={setBio}
         handleSubmit={handleSubmit}
+        buttonClass={buttonClass}
       />
     </div>
   );

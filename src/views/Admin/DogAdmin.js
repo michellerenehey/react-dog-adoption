@@ -10,6 +10,7 @@ export default function DogAdmin() {
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
   const [message, setMessage] = useState('');
+  const [buttonClass, setButtonClass] = useState('');
 
   const history = useHistory();
 
@@ -18,6 +19,7 @@ export default function DogAdmin() {
       e.preventDefault();
       const data = await addDog(name, breed, image, bio);
       setMessage('Success! Redirecting...');
+      setButtonClass('hidden');
       setTimeout(() => {
         history.push(`/dogs/${data[0].id}`);
       }, 2500);
@@ -38,6 +40,7 @@ export default function DogAdmin() {
         bio={bio}
         setBio={setBio}
         handleSubmit={handleSubmit}
+        buttonClass={buttonClass}
       />
     </div>
   );

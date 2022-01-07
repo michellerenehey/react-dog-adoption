@@ -10,6 +10,7 @@ export default function DogForm({
   bio,
   setBio,
   handleSubmit,
+  buttonClass,
 }) {
   return (
     <div className="dog-form-div">
@@ -52,7 +53,9 @@ export default function DogForm({
             setBio(e.target.value);
           }}
         />
-        <button onClick={handleSubmit}>Save</button>
+        <button onClick={handleSubmit} className={buttonClass}>
+          Save
+        </button>
       </form>
     </div>
   );
