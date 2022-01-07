@@ -8,6 +8,6 @@ test('should render the DogEdit component', async () => {
       <DogEdit match={{ params: { id: 3 } }} />
     </MemoryRouter>
   );
-  await screen.findByText('Dog Breed:');
+  await screen.findByDisplayValue('Poppy');
   expect(container).toMatchSnapshot();
 });

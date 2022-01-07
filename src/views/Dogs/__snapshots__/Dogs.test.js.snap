@@ -11,274 +11,21 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
-          href="/dogs/3"
+          href="/dogs/6"
         >
           <h3>
             Meet 
-            Althea
+            Etta
           </h3>
           <img
-            src="https://placedog.net/500?id=10"
+            src="https://placedog.net/1000/563?id=21"
           />
           <p
             class="dog-card-p"
           >
-            Althea
+            Etta
              is a(n) 
-            German Short-haired Pointer
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/2"
-        >
-          <h3>
-            Meet 
-            Amely
-          </h3>
-          <img
-            src="https://placedog.net/500?id=12"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Amely
-             is a(n) 
-            Rottweiler
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/10"
-        >
-          <h3>
-            Meet 
-            Barton
-          </h3>
-          <img
-            src="https://placedog.net/500?id=6"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Barton
-             is a(n) 
-            Weimaraner
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/32"
-        >
-          <h3>
-            Meet 
-            Benny
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=110"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Benny
-             is a(n) 
-            Terrier
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/31"
-        >
-          <h3>
-            Meet 
-            Benny
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=110"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Benny
-             is a(n) 
-            Terrier
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/27"
-        >
-          <h3>
-            Meet 
-            Champ
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=54"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Champ
-             is a(n) 
-            Cattle Dog
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/8"
-        >
-          <h3>
-            Meet 
-            Eileen
-          </h3>
-          <img
-            src="https://placedog.net/500?id=4"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Eileen
-             is a(n) 
-            American Boxer
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/14"
-        >
-          <h3>
-            Meet 
-            Eyes
-          </h3>
-          <img
-            src="https://placedog.net/500?id=22"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Eyes
-             is a(n) 
-            Weimaraner Mix
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/4"
-        >
-          <h3>
-            Meet 
-            Franny
-          </h3>
-          <img
-            src="https://placedog.net/500?id=51"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Franny
-             is a(n) 
-            French Bulldog
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/16"
-        >
-          <h3>
-            Meet 
-            Ginny
-          </h3>
-          <img
-            src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Ginny
-             is a(n) 
-            Golden Retriever
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/11"
-        >
-          <h3>
-            Meet 
-            Happy
-          </h3>
-          <img
-            src="https://placedog.net/500?id=21"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Happy
-             is a(n) 
-            French Bulldog
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/9"
-        >
-          <h3>
-            Meet 
-            Liliana
-          </h3>
-          <img
-            src="https://placedog.net/500?id=5"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Liliana
-             is a(n) 
-            Husky
+            Frenchie
           </p>
         </a>
       </div>
@@ -291,17 +38,17 @@ exports[`should render list of dogs 1`] = `
         >
           <h3>
             Meet 
-            Melba
+            Harvey
           </h3>
           <img
-            src="https://placedog.net/500?id=8"
+            src="https://placedog.net/1000/563?id=45"
           />
           <p
             class="dog-card-p"
           >
-            Melba
+            Harvey
              is a(n) 
-            Austrailian Cattle Dog
+            Golden retriever 
           </p>
         </a>
       </div>
@@ -310,21 +57,21 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
-          href="/dogs/17"
+          href="/dogs/4"
         >
           <h3>
             Meet 
-            Mrs. Weasley
+            Kaya
           </h3>
           <img
-            src="https://placedog.net/1000/563?id=3"
+            src="https://placedog.net/1000/563?id=118"
           />
           <p
             class="dog-card-p"
           >
-            Mrs. Weasley
+            Kaya
              is a(n) 
-            Golden Retriever
+            German shepherd mix
           </p>
         </a>
       </div>
@@ -333,21 +80,21 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
-          href="/dogs/21"
+          href="/dogs/3"
         >
           <h3>
             Meet 
-            Olive
+            Poppy
           </h3>
           <img
-            src="https://placedog.net/1000/563?id=76"
+            src="https://placedog.net/1000/563?id=125"
           />
           <p
             class="dog-card-p"
           >
-            Olive
+            Poppy
              is a(n) 
-            Shepard Mix
+            Border collie mix
           </p>
         </a>
       </div>
@@ -356,21 +103,21 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
-          href="/dogs/15"
+          href="/dogs/1"
         >
           <h3>
             Meet 
-            Pugilicious
+            Sitka
           </h3>
           <img
-            src="https://placedog.net/500?id=26"
+            src="https://placedog.net/1000/563?id=73"
           />
           <p
             class="dog-card-p"
           >
-            Pugilicious
+            Sitka
              is a(n) 
-            Pug
+            Cattle Dog Mix
           </p>
         </a>
       </div>
@@ -379,90 +126,21 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
-          href="/dogs/6"
+          href="/dogs/2"
         >
           <h3>
             Meet 
-            Ronny Ron
+            Xavi
           </h3>
           <img
-            src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            src="https://placedog.net/1000/563?id=83"
           />
           <p
             class="dog-card-p"
           >
-            Ronny Ron
+            Xavi
              is a(n) 
-            Golden Retriever
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/30"
-        >
-          <h3>
-            Meet 
-            Sweet Ben
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=110"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Sweet Ben
-             is a(n) 
-            Chihauhau
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/29"
-        >
-          <h3>
-            Meet 
-            Sweet Ben
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=110"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Sweet Ben
-             is a(n) 
-            Chihauhau
-          </p>
-        </a>
-      </div>
-      <div
-        class="dog-card"
-      >
-        <a
-          class="dog-list"
-          href="/dogs/28"
-        >
-          <h3>
-            Meet 
-            Sweet Ben
-          </h3>
-          <img
-            src="https://placedog.net/1000/563?id=110"
-          />
-          <p
-            class="dog-card-p"
-          >
-            Sweet Ben
-             is a(n) 
-            Chihauhau
+            Cattle dog mix
           </p>
         </a>
       </div>

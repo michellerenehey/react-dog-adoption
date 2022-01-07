@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { addDog } from '../../services/dogs';
 import { useHistory } from 'react-router-dom';
-import DogForm from '../../components/Dog/DogForm';
+import DogForm from '../../components/DogForm/DogForm';
 import './DogAdmin.css';
 
 export default function DogAdmin() {

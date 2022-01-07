@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { fetchDogById, updateDog } from '../../services/dogs';
 import { useHistory } from 'react-router-dom';
-import DogForm from '../../components/Dog/DogForm';
+import DogForm from '../../components/DogForm/DogForm';
 import './DogEdit.css';
 
 export default function DogEdit(props) {

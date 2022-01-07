@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render the DogEdit component 1`] = `
+exports[`should render the dog form with admin access 1`] = `
 <div>
   <div>
     <p
@@ -22,7 +22,7 @@ exports[`should render the DogEdit component 1`] = `
           placeholder="enter name"
           required=""
           type="text"
-          value="Poppy"
+          value=""
         />
         <label>
           Dog Breed:
@@ -30,7 +30,7 @@ exports[`should render the DogEdit component 1`] = `
         <input
           placeholder="enter breed"
           type="text"
-          value="Border collie mix"
+          value=""
         />
         <label>
           Image Link:
@@ -38,7 +38,7 @@ exports[`should render the DogEdit component 1`] = `
         <input
           placeholder="enter image url"
           type="text"
-          value="https://placedog.net/1000/563?id=125"
+          value=""
         />
         <label>
           Dog Bio:
@@ -46,9 +46,7 @@ exports[`should render the DogEdit component 1`] = `
         <textarea
           class="dog-bio"
           placeholder="enter bio"
-        >
-          What a cutie. Poppy is gentle and calm. She loves babies, dandelions, and long walks. Her ears flop when she runs, and she'll snuggle with you all day long. 
-        </textarea>
+        />
         <button>
           Save
         </button>

@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Dogs from './Dogs';
+import DogAdmin from './DogAdmin';
 
-test('should render list of dogs', async () => {
+test('should render the dog form with admin access', async () => {
   const { container } = render(
     <MemoryRouter>
-      <Dogs />
+      <DogAdmin />
     </MemoryRouter>
   );
-  await screen.findByText('Meet Poppy');
+  await screen.findByText('Dog Name:');
   expect(container).toMatchSnapshot();
 });
