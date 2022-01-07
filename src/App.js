@@ -4,7 +4,7 @@ import background from './background.png';
 
 import Dogs from './views/Dogs/Dogs';
 import Dog from './views/Dog/Dog';
-import DogEdit from './views/Dog/DogEdit';
+import DogEdit from './views/DogEdit/DogEdit';
 import Header from './views/Header/Header';
 import DogAdmin from './views/Admin/DogAdmin';
 

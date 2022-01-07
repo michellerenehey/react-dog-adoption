@@ -21,6 +21,16 @@ exports[`should render a dog's details 1`] = `
       <p>
         High energy pooch! Would do well in an active family with another dog to keep her company.
       </p>
+      <button>
+        <a
+          href="/dogs/3/edit"
+        >
+          Edit
+        </a>
+      </button>
+      <button>
+        Delete
+      </button>
     </div>
   </div>
 </div>

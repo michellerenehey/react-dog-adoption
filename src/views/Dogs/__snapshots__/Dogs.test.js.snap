@@ -80,6 +80,75 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
+          href="/dogs/32"
+        >
+          <h3>
+            Meet 
+            Benny
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=110"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Benny
+             is a(n) 
+            Terrier
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
+          href="/dogs/31"
+        >
+          <h3>
+            Meet 
+            Benny
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=110"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Benny
+             is a(n) 
+            Terrier
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
+          href="/dogs/27"
+        >
+          <h3>
+            Meet 
+            Champ
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=54"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Champ
+             is a(n) 
+            Cattle Dog
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
           href="/dogs/8"
         >
           <h3>
@@ -264,6 +333,29 @@ exports[`should render list of dogs 1`] = `
       >
         <a
           class="dog-list"
+          href="/dogs/21"
+        >
+          <h3>
+            Meet 
+            Olive
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=76"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Olive
+             is a(n) 
+            Shepard Mix
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
           href="/dogs/15"
         >
           <h3>
@@ -291,7 +383,7 @@ exports[`should render list of dogs 1`] = `
         >
           <h3>
             Meet 
-            Ron
+            Ronny Ron
           </h3>
           <img
             src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
@@ -299,9 +391,78 @@ exports[`should render list of dogs 1`] = `
           <p
             class="dog-card-p"
           >
-            Ron
+            Ronny Ron
              is a(n) 
             Golden Retriever
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
+          href="/dogs/30"
+        >
+          <h3>
+            Meet 
+            Sweet Ben
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=110"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Sweet Ben
+             is a(n) 
+            Chihauhau
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
+          href="/dogs/29"
+        >
+          <h3>
+            Meet 
+            Sweet Ben
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=110"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Sweet Ben
+             is a(n) 
+            Chihauhau
+          </p>
+        </a>
+      </div>
+      <div
+        class="dog-card"
+      >
+        <a
+          class="dog-list"
+          href="/dogs/28"
+        >
+          <h3>
+            Meet 
+            Sweet Ben
+          </h3>
+          <img
+            src="https://placedog.net/1000/563?id=110"
+          />
+          <p
+            class="dog-card-p"
+          >
+            Sweet Ben
+             is a(n) 
+            Chihauhau
           </p>
         </a>
       </div>
