@@ -9,7 +9,7 @@ export default function DogAdmin() {
   const [breed, setBreed] = useState('');
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState(null);
   const [buttonClass, setButtonClass] = useState('');
 
   const history = useHistory();
@@ -29,7 +29,7 @@ export default function DogAdmin() {
   };
   return (
     <div>
-      <p className="message">{message}</p>
+      {message && <p className="message">{message}</p>}
       <DogForm
         name={name}
         setName={setName}

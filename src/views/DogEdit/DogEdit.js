@@ -10,7 +10,7 @@ export default function DogEdit(props) {
   const [breed, setBreed] = useState('');
   const [image, setImage] = useState('');
   const [bio, setBio] = useState('');
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState(null);
   const [buttonClass, setButtonClass] = useState('');
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export default function DogEdit(props) {
 
   return (
     <div>
-      <p className="message">{message}</p>
+      {message && <p className="message">{message}</p>}
       <DogForm
         name={name}
         setName={setName}
