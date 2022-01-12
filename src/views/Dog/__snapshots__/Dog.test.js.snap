@@ -8,19 +8,29 @@ exports[`should render a dog's details 1`] = `
     >
       <h3>
         Meet 
-        Althea
+        Poppy
       </h3>
       <img
-        src="https://placedog.net/500?id=10"
+        src="https://placedog.net/1000/563?id=125"
       />
       <p>
-        Althea
+        Poppy
          is a(n) 
-        German Short-haired Pointer
+        Border collie mix
       </p>
       <p>
-        High energy pooch! Would do well in an active family with another dog to keep her company.
+        What a cutie. Poppy is gentle and calm. She loves babies, dandelions, and long walks. Her ears flop when she runs, and she'll snuggle with you all day long. 
       </p>
+      <button>
+        <a
+          href="/dogs/3/edit"
+        >
+          Edit
+        </a>
+      </button>
+      <button>
+        Delete
+      </button>
     </div>
   </div>
 </div>

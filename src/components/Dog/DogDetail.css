@@ -3,4 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #ffc0cb;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+
+.dog-detail > img {
+  width: 400px;
 }

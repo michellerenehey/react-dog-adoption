@@ -8,6 +8,6 @@ test("should render a dog's details", async () => {
       <Dog match={{ params: { id: 3 } }} />
     </MemoryRouter>
   );
-  await screen.findByText('Meet Althea');
+  await screen.findByText('Meet Poppy');
   expect(container).toMatchSnapshot();
 });

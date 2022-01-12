@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Dogs from './Dogs';
+import DogEdit from './DogEdit';
 
-test('should render list of dogs', async () => {
+test('should render the DogEdit component', async () => {
   const { container } = render(
     <MemoryRouter>
-      <Dogs />
+      <DogEdit match={{ params: { id: 3 } }} />
     </MemoryRouter>
   );
-  await screen.findByText('Meet Poppy');
+  await screen.findByDisplayValue('Poppy');
   expect(container).toMatchSnapshot();
 });
